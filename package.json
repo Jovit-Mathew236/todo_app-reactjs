@@ -2,6 +2,7 @@
   "name": "todo-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://Jovit-Mathew236.github.io/todo_app-reactjs",
   "dependencies": {
     "@bumaga/tabs": "^0.2.0",
     "@testing-library/jest-dom": "^5.12.0",
