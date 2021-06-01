@@ -142,26 +142,32 @@ h2 {
 }
 .app .todos .todo .left p {
   margin-left: 1px;
-  font-size: 1.7rem;
+  margin-right: 25px;
   padding-left: 16px;
+  font-size: 1.7rem;
   font-weight: 700;
   font-style: normal;
+  word-wrap: break-word;
   color: rgba(0, 0, 0, 0.904);
 }
 .app .todos .todo2 .left p {
   margin-left: 1px;
-  font-size: 1.7rem;
+  margin-right: 25px;
   padding-left: 16px;
+  font-size: 1.7rem;
   font-weight: 700;
   font-style: normal;
+  word-wrap: break-word;
   color: rgba(0, 0, 0, 0.904);
 }
 .app .todos .todo3 .left p {
   margin-left: 1px;
-  font-size: 1.7rem;
+  margin-right: 25px;
   padding-left: 16px;
+  font-size: 1.7rem;
   font-weight: 700;
   font-style: normal;
+  word-wrap: break-word;
   color: rgba(0, 0, 0, 0.904);
 }
 .app .todos .todo .left span {
