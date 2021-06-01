@@ -7,16 +7,15 @@ body {
   background-color: #020631;
 }
 .dark-mode {
-  background-color: #1d1d1d;
+  background-color: #1c1c1c;
 }
 .app {
-  position: absolute;
-  top: 10%;
-  left: 50%;
-  bottom: auto;
-  transform: translate(-50%, 0%);
-  border: 2px solid white;
-  box-shadow: 2px 2px 45px -10px rgb(52, 132, 236);
+  margin: auto;
+  top: 10vh;
+  position: relative;
+  width: fit-content;
+  border: 2px solid #fff;
+  box-shadow: 2px 2px 45px -10px #3484ec;
 }
 
 .app .mainHeading h1 {
