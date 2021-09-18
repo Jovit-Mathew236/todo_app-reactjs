@@ -12,8 +12,14 @@ function App() {
   const [toDo, setToDo] = useState('')
   const [removedToDos, setRemovedToDos] = useState([]);
 
-  const addTodos = (e) => {
-    setToDos([...toDos, { id: Date.now(), Text: toDo, status: false }])
+  const addTodos = () => {
+     // add task if task length is > 0
+    if (toDo.length > 0){
+       setToDos([...toDos, { id: Date.now(), Text: toDo, status: false }]);
+      // making the input field to blank, after adding task
+      setToDo("");
+    }
+   
   };
 
   const handleKeyPress = (event) => {
